@@ -3,15 +3,6 @@
   src: url(Fonts/Norse-Bold.otf);
 }
 
-a {
-  text-decoration-line: underline;
-  text-decoration-color: #F9FAFB;
-  color: #F9FAFB;
-  padding-left: 0.4em;
-  padding-right: 0.4em;
-  
-}
-
 body {
   margin: 0;
   background-color: #F9FAFB;
@@ -46,6 +37,14 @@ body {
   font-size: smaller;
 }
 
+.footer a {
+  text-decoration-line: underline;
+  text-decoration-color: #F9FAFB;
+  color: #F9FAFB;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+  
+}
 
 .right-side {
   display: flex;
@@ -88,6 +87,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding-bottom: 20px;
 }
 
 .sign-up-box {
@@ -104,4 +104,38 @@ body {
   border-color: rgb(201, 201, 201);
   border-radius: 5px;
   border-width: 1px;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  margin-right: auto;
+}
+
+.submit-form {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  gap: 40px;
+}
+
+.submit-button {
+  margin-left: 5px;
+}
+
+.submit-button button {
+  height: 60px;
+  width: 250px;
+  background-color: orangered;
+  color: whitesmoke;
+  border-style: none;
+  border-radius: 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.log-in-link a {
+  color: #4A84C4;
+  text-decoration-line: none;
 }

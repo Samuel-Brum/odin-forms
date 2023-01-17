@@ -40,7 +40,8 @@
         </div>
         
         <div>
-          <form action="http://httpbin.org/post" method="post"  class="group-of-boxes">
+          <form action="http://httpbin.org/post" method="post"  class="group-of-boxes"
+          id="user_id">
             <div class="sign-up-box">
               <label for="first_name">First Name</label>
               <input type="text" id="first_name" required>
@@ -75,7 +76,13 @@
       </div>
 
       <div class="submit-form">
-        SUBMIT BUTTON AND LOG IN
+        <div class="submit-button">
+          <button type="submit" form="user_id">Create Account</button>
+        </div>
+
+        <div class="log-in-link" >
+          Already have an account? <a href="#">Log in</a>
+        </div>
       </div>
   </div>  
 </body>

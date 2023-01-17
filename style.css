@@ -17,14 +17,13 @@ body {
   background-color: #F9FAFB;
   display: flex;
   flex-direction: row;
-  height: 100vh;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-.leftSide {
+.left-side {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 33%;
   color: white;
   background: url(Images/left-side-img.jpg);
   background-size: cover;
@@ -48,25 +47,61 @@ body {
 }
 
 
-.rightSide {
+.right-side {
   display: flex;
   flex-direction: column;
-  background-color: #F9FAFB;
-  width: 60%;
+  background-color: whitesmoke;
+  width: 67%;
   align-items: center;
-  margin-left: 4em;
-  margin-right: 15%;
-  margin-top: 10%;
 }
 
-.signUpPrompt {
-  font-size: larger;
+.sign-up-prompt {
+  font-size: x-large;
   text-align: start;
-  margin-right: auto;
-  font-weight: bold;
+  margin-left: 50px;
+  margin-top: 10%;
+  margin-right: 20%;
+  margin-bottom: 50px;
+  font-weight: bolder;
   line-height: 1.5em;
 }
 
-.signUpForm {
-  padding-top: 100px;
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px darkgray;
+  padding-left: 50px;
+}
+
+#lets-do-this {
+  font-size: x-large;
+  font-weight: bold;
+  line-height: 1.5em;
+  color: rgb(39, 39, 39);
+}
+
+.group-of-boxes {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.sign-up-box {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-bottom: 30px;
+  margin-right: 80px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.sign-up-box input {
+  height: 25px;
+  border-color: rgb(201, 201, 201);
+  border-radius: 5px;
+  border-width: 1px;
 }

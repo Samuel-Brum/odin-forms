@@ -8,7 +8,7 @@
   <title>Sign-up page</title>
 </head>
 <body>
-  <div class="leftSide">
+  <div class="left-side">
       <div class="banner">
         <img src="Images/odin-lined.png" alt="The Odin Project lined logo" width="80em%">  
         ODIN
@@ -20,8 +20,8 @@
       </div>
   </div>
 
-  <div class="rightSide">
-      <div class="signUpPrompt">
+  <div class="right-side">
+      <div class="sign-up-prompt">
         This is not a real online service! You know you need something like this
         in your life to help you realize your deepest dreams.
         <br>
@@ -32,11 +32,49 @@
 
       </div>
 
-      <div class="signUpForm">
-        FORMS GO HERE
+      <div class="sign-up-form">
+        <div>
+          <p id="lets-do-this">
+            Let's do this!
+          </p>
+        </div>
+        
+        <div>
+          <form action="http://httpbin.org/post" method="post"  class="group-of-boxes">
+            <div class="sign-up-box">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" required>
+            </div>
+
+            <div class="sign-up-box">
+              <label for="last_name">Last Name</label>
+              <input type="text" id="last_name" required>
+            </div>
+            
+            <div class="sign-up-box">
+              <label for="email">Email</label>
+              <input type="email" id="email" required>
+            </div>
+            
+            <div class="sign-up-box">
+              <label for="phone_number">Phone Number</label>
+              <input type="tel" id="phone_number">
+            </div>
+
+            <div class="sign-up-box">
+              <label for="password">Password</label>
+              <input type="password" id="password">
+            </div>
+
+            <div class="sign-up-box">
+              <label for="password_confirm">Confirm Password</label>
+              <input type="password" id="password_confirm">
+            </div>
+          </form>
+        </div>
       </div>
 
-      <div class="submitForm">
+      <div class="submit-form">
         SUBMIT BUTTON AND LOG IN
       </div>
   </div>  

@@ -65,6 +65,7 @@
 
             <div class="sign-up-box">
               <label for="password">Password</label>
+              <!-- BUG: pattern não está funcionando corretamente -->
               <input type="password" id="password" 
               placeholder="Must have numbers and letters."
               pattern= "/^(?:[0-9]+[a-z]|[a-z]+[0-9])[a-z0-9]*$/i" class="password">
@@ -81,6 +82,7 @@
 
       <div class="submit-form">
         <div class="submit-button">
+          <!-- BUG: submissão não está passando as informações corretamente -->
           <button type="submit" form="user_id" value="Submit">Create Account</button>
         </div>
 

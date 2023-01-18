@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <script src="./script.js" defer></script>
   <title>Sign-up page</title>
 </head>
 <body>
@@ -66,7 +67,8 @@
               <label for="password">Password</label>
               <input type="password" id="password" 
               placeholder="Must have numbers and letters."
-              pattern="/^(?:[0-9]+[a-z]|[a-z]+[0-9])[a-z0-9]*$/i" class="password">
+              pattern= "/^(?:[0-9]+[a-z]|[a-z]+[0-9])[a-z0-9]*$/i" class="password">
+              <div id="error_msg"></div>
             </div>
 
             <div class="sign-up-box">
@@ -79,7 +81,7 @@
 
       <div class="submit-form">
         <div class="submit-button">
-          <button type="submit" form="user_id">Create Account</button>
+          <button type="submit" form="user_id" value="Submit">Create Account</button>
         </div>
 
         <div class="log-in-link" >

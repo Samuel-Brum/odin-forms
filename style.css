@@ -130,6 +130,14 @@ body {
   outline-width: 3px;
 }
 
+#error_msg {
+  font-size: small;
+  color:orangered;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
 .submit-form {
   display: flex;
   flex-direction: column;
